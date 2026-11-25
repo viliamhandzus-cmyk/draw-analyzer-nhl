@@ -1,0 +1,3 @@
+# DRAW ANALYZER NHL 1.0
+Experimentalny virtualny test, nie dokaz ziskovosti. Node 20+, bez API kluca.
+GitHub: novy repozitar draw-analyzer-nhl, nahrajte obsah ZIP. Render: New Web Service, vyberte novy repozitar, build command `npm install`, start command `npm start`, Free. Otvorte URL pred prvym zapasom NHL dna (datum New York). Historia a kurzy su lokalne v prehliadaci; exportujte CSV. Aplikacia pri otvoreni aktualizuje data a vysledky, nie je to serverovy planovac. Zive NHL a MoneyPuck endpointy treba overit po nasadeni; pri chybe sa zobrazi nekompletny stav. Modely su rekonstruovane, nie povodne. Futbalova aplikacia je oddelena.

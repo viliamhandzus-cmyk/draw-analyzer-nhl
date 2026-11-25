@@ -1,0 +1,1 @@
+const assert=require('node:assert/strict');const {predict}=require('./model');const rows=require('./seed.json');assert.equal(predict([], 'A','B','2026-01-01'),null);const r=rows.at(-1);const p=predict(rows,r.home,r.away,r.date);assert(p&&p.L>0&&p.L<1);console.log('Model smoke test OK',p);
